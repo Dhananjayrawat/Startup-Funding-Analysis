@@ -3,8 +3,6 @@ This project provides a comprehensive audit of the Indian startup ecosystem. I t
 
 #Raw financial data is rarely "clean." This dataset was plagued by encoding errors, inconsistent naming, and "hidden" characters. I used Python (Pandas) to perform advanced data engineering:
 
-#Eliminate hexadecimal junk characters (like \xc2\xa0) that were breaking mathematical aggregations.
-
 #Built a keyword-based mapping function to consolidate 500+ messy "Sub-Verticals" into 6 high-level Service Categories.
 
 #Financial Modeling: Grouped 100+ unique "Investment Types" into a strategic 3-Bucket System:
